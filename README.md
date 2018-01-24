@@ -1,3 +1,3 @@
-This is just a fork of the firefox addon ZeroWiki [0].
+This is just a fork of the firefox addon [ZeroWiki].
 
-[0]: https://github.com/halileohalilei/ZeroWiki
+[ZeroWiki]: https://github.com/halileohalilei/ZeroWiki
