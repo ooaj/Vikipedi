@@ -2,7 +2,7 @@
   "name": "VikipediPW",
   "short_name": "VikipediPW",
   "description": "This extension makes your browser load Wikipedia content from vikipedi.pw instead of wikipedia.org.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "manifest_version": 2,
   "background": {
     "scripts": ["background.js"]
