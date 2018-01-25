@@ -11,13 +11,13 @@ chrome.webRequest.onBeforeRequest.addListener(
     	actualUrlParts.splice(2, 1, stub);
     	var newUrl = actualUrlParts.join("/");
     	var actualUrl2 = newUrl
-		var actualUrlParts2 = actualUrl2.split("/");
-		var stub2 = actualUrlParts2[2];
-		var stubParts2 = stub2.split("\.");
-		stubParts2.splice(domainIndex+1, 1, "pw");
-		stub2 = stubParts2.join(".");
-		actualUrlParts2.splice(2, 1, stub2);    
-		var newUrl2 = actualUrlParts2.join("/");	
+	var actualUrlParts2 = actualUrl2.split("/");
+	var stub2 = actualUrlParts2[2];
+	var stubParts2 = stub2.split("\.");
+	stubParts2.splice(domainIndex+1, 1, "pw");
+	stub2 = stubParts2.join(".");
+	actualUrlParts2.splice(2, 1, stub2);    
+	var newUrl2 = actualUrlParts2.join("/");	
     	return { redirectUrl: newUrl2 };
     }
   },
