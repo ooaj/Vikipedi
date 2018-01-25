@@ -18,7 +18,7 @@ chrome.webRequest.onBeforeRequest.addListener(
 		stub2 = stubParts2.join(".");
 		actualUrlParts2.splice(2, 1, stub2);    
 		var newUrl2 = actualUrlParts2.join("/");	
-    	return { redirectUrl: newUrl2 };
+    		return { redirectUrl: newUrl2 };
     }
   },
   {urls: ["*://*.wikipedia.org/*"]},
